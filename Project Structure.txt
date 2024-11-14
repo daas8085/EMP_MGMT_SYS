@@ -1,0 +1,78 @@
+Project Structure
+
+
+Frontend: HTML, CSS, JavaScript.
+Backend: Python with Flask.
+Database: SQLite.
+
+
+Steps
+Set up Flask for backend routes.
+Design HTML pages with CSS and JavaScript.
+Connect the frontend to Flask with Fetch API to interact with the database.
+
+
+File Structure
+arduino
+Copy code
+EmployeeManagementSystem/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── templates/
+│   └── index.html
+├── app.py
+├── employee_management.db
+└── database_setup.py
+
+
+Step 1: Set Up the Backend (Flask)
+Create the app.py file for managing backend routes and connecting to the SQLite database.
+
+Step 2: Create the HTML, CSS, and JavaScript Files
+
+
+
+
+Running the Project
+
+Initialize the Database: Run database_setup.py to create the database and table.
+
+Start the Flask Server: Run app.py by executing python app.py.
+
+Open in Browser: Go to http://127.0.0.1:5000 to access the Employee Management System.
+
+To initialize the database, you need to create the necessary table structure in your SQLite database (employee_management.db). Here’s a step-by-step guide on how to do that:
+
+Step 1: Create the Database Setup Script
+Make sure you have a database_setup.py script, which includes the code to create the database file and the employees table. Here’s what database_setup.py should look like:
+
+Step 2: Run the Script
+Open a terminal or command prompt.
+
+Navigate to the folder where your database_setup.py file is located.
+
+Run the following command:
+
+bash
+Copy code
+
+python database_setup.py
+
+
+Step 3: Verify the Database
+After running the script, a file named employee_management.db should appear in your project directory. This file is your SQLite database, and it now includes the employees table, ready to store employee data.
+
+Additional Verification (Optional)
+If you want to double-check that the table has been created, you can use an SQLite client or a tool like DB Browser for SQLite to open employee_management.db and inspect its contents.
+
+Once the database is initialized, you can proceed with running your Flask application (app.py) and start using the Employee Management System!
+
+
+
+Now, you have a responsive web-based Employee Management System with a backend and database integration! You can add, view, and delete employees interactively.
+
+
+
