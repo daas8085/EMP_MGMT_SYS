@@ -102,4 +102,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - SQLite for lightweight database support
 - Vanilla HTML, CSS, and JavaScript for frontend implementation
 
-##Thank_You
+## Thank_You
