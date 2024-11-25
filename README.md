@@ -40,7 +40,7 @@ Ensure you have **Python** and **Flask** installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/EmployeeManagementSystem.git
+   git clone https://github.com/daas8085/EmployeeManagementSystem.git
    cd EmployeeManagementSystem
    ```
 
@@ -102,6 +102,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - SQLite for lightweight database support
 - Vanilla HTML, CSS, and JavaScript for frontend implementation
 
----
-
-This `README.md` provides a clear overview of your project structure, setup, and usage. Just replace `yourusername` with your actual GitHub username before uploading.
+##Thank_You
